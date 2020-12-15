@@ -5,10 +5,10 @@ This is an selflearning project based on Udemy [The complete React Native and Re
 ## get started
 
 Install all the dependencies:
-    npm install
+    `npm install`
 
 To run the app:
-    expor start
+    `expor start`
 
 To clean the React Native packger cache:
-    npm start -- --reset-cache
+    `npm start -- --reset-cache`
