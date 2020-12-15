@@ -4,6 +4,8 @@ import ColorCounter from "../components/ColorCounter";
 
 const COLOR_INCREMENT = 15;
 
+// conventionlly the action object of reducer should be like this {type: "string", payload: number}
+
 const reducer = (state, action) => {
   // state==={red:number, green: number, blue: number}
   // action === {colorToChange:'red' || 'green'|| 'blue', amount: 15 || -15}
